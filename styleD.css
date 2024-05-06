@@ -1,0 +1,23 @@
+
+/* Formulario de consultas y toma de datos*/
+.consultas{
+    display: flex ;
+    flex-direction: inherit;
+    justify-content:space-around;
+    margin: 5px;
+    height: 55vh;
+    width: 100vw;
+    padding-left: 15px;
+}
+.OSocial{
+    display: flex;
+    flex-direction:column;
+}
+.ubicacion{
+    display: flex ;
+    justify-content:space-around;
+    flex-direction: row;
+    margin: 5px;
+    height: 85vh;
+    width: 100vw;
+}
