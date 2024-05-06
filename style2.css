@@ -1,0 +1,56 @@
+.profesionales {
+    height: 80vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4vh 16vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+
+.profesional1 {
+    background-image: url(img-profesionales/profesional2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.profesional2 {
+    background-image: url(img-profesionales/profesional1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.profesional3 {
+    background-image: url(img-profesionales/profesional3.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.profesional4 {
+    background-image: url(img-profesionales/profesional2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.profesional5 {
+    background-image: url(img-profesionales/profesional1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.profesional6 {
+    background-image: url(img-profesionales/profesional3.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

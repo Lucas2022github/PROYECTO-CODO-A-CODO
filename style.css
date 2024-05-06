@@ -28,7 +28,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 1.5rem;
+
     height: 12vh;
     position: sticky;
     top: 0;
@@ -38,6 +38,7 @@ body {
 .nav ul {
     display: flex;
     list-style-type: none;
+    padding-top: 1.5rem;
 
 }
 
@@ -50,9 +51,9 @@ body {
     margin-right: 1.5rem;
 }
 
-.home a {
-    padding-left: 2rem;
-    text-decoration: none;
+.home a img {
+    width: 4rem;
+    margin-left: 1.5rem;
 }
 
 
@@ -80,4 +81,38 @@ body {
 
 .container-home p {
     text-align: center;
+}
+
+
+
+/* NOSOTROS--------------------------------------------- */
+.nosotros {
+    box-sizing: content-box;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20vh;
+    gap: 4vh 2vw;
+
+}
+
+.container1 {
+    margin-top: 0vh;
+}
+
+.container2 {
+    margin-top: 0vh;
+}
+
+.container2 img {
+    width: 25vw;
+    /* padding-top: 10vh; */
+}
+
+.container4 img {
+    width: 25vw;
 }
