@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="formularios.css">
     <title>Dental Studio</title>
 </head>
 
@@ -116,9 +117,58 @@
                 </div>
 
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+
+        <section class="contacto">
+            <article class="contacto-1">
+
+                <form action="https://formsubmit.co/lucasgatto17@gmail.com" method="POST" class="form-contacto">
+                    <div class="">
+                        <label class="form-label" for="name">NOMBRE:</label>
+                        <input class="form-control" id="" name="name" placeholder="Introduce tu nombre" type="text"
+                            required>
+                    </div>
+
+                    <div class="completar">
+                        <label class="form-label" for="email">EMAIL:</label>
+                        <input class="form-control" id="" name="email" placeholder="Introduce email" type="email"
+                            required>
+                    </div>
+
+                    <div class="completar">
+                        <label class="form-label" for="email">CELULAR:</label>
+                        <input class="form-control" id="" name="celular" placeholder="Introduce celular" type="tel"
+                            required>
+                    </div>
+
+                    <div class="completar">
+                        <label class="form-label" for="comentarios">COMENTARIOS:</label>
+                        <textarea class="form-control " name="comentarios" id="comentarios"
+                            placeholder="Dejanos tus comentarios" required rows="5"></textarea>
+
+                        <div class="completar">
+                            <input type="submit" class="">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+                            <input type="hidden" name="_subject" value="comentario bootstrap">
+                        </div>
+                    </div>
+
+                </form>
+
+            </article>
+
+            <article class="contenedor-map">
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.842180754006!2d-58.450873905434676!3d-34.58285966048561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5eee6f6179b%3A0x6fa1a2ea8875d022!2sAv.%20C%C3%B3rdoba%206238%2C%20C1427BZP%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1714596341012!5m2!1ses!2sar"
+                        width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </article>
+
+        </section>
+
+        <section class="turno"></section>
         <footer></footer>
     </main>
 
