@@ -50,6 +50,11 @@ body {
 
 .button-menu {
     margin-right: 1.5rem;
+
+}
+
+.button-menu a {
+    text-decoration: none;
 }
 
 .home a img {
@@ -77,7 +82,7 @@ body {
 }
 
 .img-logo {
-    width: 40%;
+    width: 35%;
 }
 
 .container-home p {

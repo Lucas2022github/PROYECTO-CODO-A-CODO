@@ -12,48 +12,78 @@
 }
 
 
-.profesional1 {
-    background-image: url(img-profesionales/profesional2.webp);
+.profesional1 img {
+    /* background-image: url(img-profesionales/profesional2.webp);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: center; */
+    width: 11rem;
+    height: 13rem;
 
 }
 
-.profesional2 {
-    background-image: url(img-profesionales/profesional1.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.profesional1 p {
+    text-align: center;
+    background-color: var(--third-color);
+    margin: 0;
 }
 
-.profesional3 {
-    background-image: url(img-profesionales/profesional3.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.profesional2 img {
+    width: 11rem;
+    height: 13rem;
 }
 
-.profesional4 {
-    background-image: url(img-profesionales/profesional2.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.profesional2 p {
+    text-align: center;
+    background-color: var(--third-color);
+    margin: 0;
 }
 
-.profesional5 {
-    background-image: url(img-profesionales/profesional1.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.profesional3 img {
+    width: 11rem;
+    height: 13rem;
 }
 
-.profesional6 {
-    background-image: url(img-profesionales/profesional3.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.profesional3 p {
+    text-align: center;
+    background-color: var(--third-color);
+    margin: 0;
 }
+
+.profesional4 img {
+    width: 11rem;
+    height: 13rem;
+}
+
+.profesional4 p {
+    text-align: center;
+    background-color: var(--third-color);
+    margin: 0;
+}
+
+.profesional5 img {
+    width: 11rem;
+    height: 13rem;
+}
+
+.profesional5 p {
+    text-align: center;
+    background-color: var(--third-color);
+    margin: 0;
+}
+
+.profesional6 p {
+    text-align: center;
+    background-color: var(--third-color);
+    margin: 0;
+}
+
+.profesional6 img {
+    width: 11rem;
+    height: 13rem;
+}
+
+
 
 
 /* 
