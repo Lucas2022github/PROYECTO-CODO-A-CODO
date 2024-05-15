@@ -1,0 +1,112 @@
+/* FORMULARIO DE CONTACTO-------------------------------------- */
+
+.contacto {
+    height: 100vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.contacto-1 {
+    margin-top: 20vh;
+}
+
+.contacto-2 {
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+.contaco-descripcion {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+/* CONSULTAS------------------------------------------------------- */
+
+.consulta {
+    height: 100vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-consulta {
+    margin-top: 20vh;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.completar {
+    margin-bottom: vh;
+    margin-top: 1vh;
+
+}
+
+.boton-consulta {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* TURNOS---------------------------- */
+
+.turnos {
+    height: 100vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+/* FOOTER---------------------------------------------------------------- */
+
+
+.footer {
+    background-color: white;
+    height: 40vh;
+
+}
+
+.contenedor-footer {
+    text-align: center;
+
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15vh;
+    padding-bottom: 2rem;
+}
+
+.redes i {
+    /* color: var(--fourth-color); */
+    color: green;
+    transition: all .3s ease-out;
+    font-size: 2rem;
+
+}
+
+.redes i:hover {
+    color: var(--third-color);
+}
+
+
+/* .text-footer {
+    padding-top: 10rem;
+    margin-top: 20rem;
+
+} */
