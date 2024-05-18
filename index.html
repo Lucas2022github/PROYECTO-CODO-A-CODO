@@ -161,7 +161,7 @@
         </section>
 
 
-        <section class="consulta" id="consulta">
+        <!-- <section class="consulta" id="consulta">
 
             <article class="text-consulta">
                 <h2>DEJANOS TU CONSULTA</h2>
@@ -200,6 +200,41 @@
                         </div>
                     </div>
 
+                </form>
+
+            </article>
+
+        </section> -->
+
+        <section class="consulta" id="consulta">
+
+            <article class="text-consulta">
+                <h2>DEJANOS TU CONSULTA</h2>
+            </article>
+
+            <article class="consulta-1">
+
+                <form class="contact-form" action="https://formsubmit.co/your@email.com" method="POST" target="_blank">
+
+                    <input type="text" name="name" placeholder="Escribe tu nombre"
+                        title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                        required>
+                    <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto"
+                        pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+
+                    <input type="tel" name="tel" placeholder="Escribe tu celular" title="Celular incorrecto"
+                        pattern="^[0-9]{10}$" required>
+
+                    <textarea name="comments" rows="5" placeholder="Escribe tus comentarios"
+                        title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$"
+                        required></textarea>
+                    <input type="submit" value="Enviar">
+                    <div class="contact-form-loader none">
+                        <img src="./assets/logo/loader.svg" alt="Cargando">
+                    </div>
+                    <div class="contact-form-response none">
+                        <p>Los datos han sido enviados</p>
+                    </div>
                 </form>
 
             </article>
