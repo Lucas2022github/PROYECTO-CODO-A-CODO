@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/style2.css">
     <link rel="stylesheet" href="./assets/css/formularios.css">
+    <link rel="stylesheet" href="./assets/css/menu_hamburguesa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.css">
+
     <title>Dental Studio</title>
 </head>
 
@@ -40,6 +43,23 @@
     </header>
 
     <main>
+
+        <button class="panel-btn hamburger hamburger--vortex" type="button" title="Abrir menú de navegación">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+
+        <aside class="panel">
+            <nav class="menu-hambur">
+                <a href="#nosotros">NOSOTROS</a>
+                <a href="#profesionales">PROFESIONALES</a>
+                <a href="#testimonios">TESTIMONIOS</a>
+                <a href="#contacto">CONTACTO</a>
+                <a href="#consulta">CONSULTAS</a>
+                <a href="#turnos">TURNOS</a>
+            </nav>
+        </aside>
 
         <section class="home-section">
             <article class="container-home">
@@ -161,51 +181,6 @@
         </section>
 
 
-        <!-- <section class="consulta" id="consulta">
-
-            <article class="text-consulta">
-                <h2>DEJANOS TU CONSULTA</h2>
-            </article>
-
-            <article class="consulta-1">
-
-                <form action="https://formsubmit.co/lucasgatto17@gmail.com" method="POST" class="form-contacto">
-                    <div class="completar">
-                        <label class="form-label" for="name">NOMBRE:</label>
-                        <input class="form-control" id="" name="name" placeholder="Introduce tu nombre" type="text"
-                            required>
-                    </div>
-
-                    <div class="completar">
-                        <label class="form-label" for="email">EMAIL:</label>
-                        <input class="form-control" id="" name="email" placeholder="Introduce email" type="email"
-                            required>
-                    </div>
-
-                    <div class="completar">
-                        <label class="form-label" for="email">CELULAR:</label>
-                        <input class="form-control" id="" name="celular" placeholder="Introduce celular" type="tel"
-                            required>
-                    </div>
-
-                    <div class="completar">
-                        <label class="form-label" for="comentarios">COMENTARIOS:</label>
-                        <textarea class="form-control " name="comentarios" id="comentarios"
-                            placeholder="Dejanos tus comentarios" required rows="5"></textarea>
-
-                        <div class="completar boton-consulta">
-                            <input type="submit" class="">
-                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
-                            <input type="hidden" name="_subject" value="comentario bootstrap">
-                        </div>
-                    </div>
-
-                </form>
-
-            </article>
-
-        </section> -->
-
         <section class="consulta" id="consulta">
 
             <article class="text-consulta">
@@ -289,12 +264,17 @@
         <footer class="footer">
             <div class="contenedor-footer">
                 <nav class="nav-footer">
-                    <a href="https://.com" target="_blank" class="redes"><i class="bi bi-facebook"></i></a>
-                    <a href="https://.com" target="_blank" class="redes"><i class="bi bi-twitter"></i></a>
-                    <a href="https://.com" target="_blank" class="redes"><i class="bi bi-youtube"></i></a>
-                    <a href="https://.com" target="_blank" class="redes"><i class="bi bi-instagram"></i></a>
-                    <a href="https://.com" target="_blank" class="redes"><i class="bi bi-messenger"></i></a>
-                    <a href="https://wa.me/1173612200?text=hola" target="_blank" class="redes"><i
+                    <a href="https://.com" target="_blank" class="redes" rel="noopener"><i
+                            class="bi bi-facebook"></i></a>
+                    <a href="https://.com" target="_blank" class="redes" rel="noopener"><i
+                            class="bi bi-twitter"></i></a>
+                    <a href="https://.com" target="_blank" class="redes" rel="noopener"><i
+                            class="bi bi-youtube"></i></a>
+                    <a href="https://.com" target="_blank" class="redes" rel="noopener"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://.com" target="_blank" class="redes" rel="noopener"><i
+                            class="bi bi-messenger"></i></a>
+                    <a href="https://wa.me/1173612200?text=hola" target="_blank" class="redes" rel="noopener"><i
                             class="bi bi-whatsapp"></i></a>
                 </nav>
                 <small class="text-footer">&copy 2023</small>
