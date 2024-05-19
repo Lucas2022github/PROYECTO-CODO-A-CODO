@@ -30,7 +30,7 @@
 @media (max-width: 576px) {
     .contacto {
         height: 100vh;
-        width: 70vw;
+        width: 90vw;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -39,12 +39,12 @@
     }
 
     .contenedor-map iframe {
-        width: 300px;
+        width: 350px;
         height: 300px;
     }
 
     .contacto-1 {
-        margin-top: 10vh;
+        margin-top: 5vh;
     }
 
     .contacto-2 {
@@ -62,10 +62,12 @@
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20vh;
 }
 
 .text-consulta {
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
+    /* padding-bottom: 20vh; */
     text-align: center;
     margin-bottom: 3vh;
 }
@@ -176,7 +178,24 @@
 
 
 
+@media (max-width: 576px) {
 
+    .consulta {
+        height: 100vh;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 6vh;
+    }
+
+    .contact-form {
+        --form-ok-color: #4caf50;
+        --form-error-color: #f44336;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
 
 
 
@@ -189,6 +208,7 @@
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20vh;
 }
 
 
@@ -209,6 +229,7 @@
 
 .contenedor-footer {
     text-align: center;
+    background-color: white;
 
 }
 
@@ -237,3 +258,27 @@
     margin-top: 20rem;
 
 } */
+
+
+@media (max-width: 576px) {
+    .footer {
+        background-color: white;
+        height: 20vh;
+
+
+    }
+
+    .nav-footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 4vh 2vw;
+        padding-top: 10vh;
+
+    }
+
+    .contenedor-footer {
+
+        padding-bottom: 15vh;
+    }
+}
