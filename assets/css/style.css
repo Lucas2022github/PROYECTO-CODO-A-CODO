@@ -9,10 +9,10 @@ html {
 }
 
 :root {
-    --first-color: rgba(247, 238, 221, 1);
-    --second-color: rgba(88, 224, 167, 1);
-    --third-color: rgba(88, 192, 224, 1);
-    --fourth-color: rgba(88, 224, 120, 1);
+    --first-color: rgba(255, 255, 255, 1);
+    --second-color: rgba(88, 225, 213, 1);
+    --third-color: rgba(0, 141, 218, 1);
+    --fourth-color: rgba(88, 224, 167, 1);
     --bg-alpha-color: rgba(245, 245, 245, 0.75);
 }
 
@@ -73,7 +73,11 @@ body {
 
 .home-section {
     height: 100vh;
+    background-image: url('/assets/img/img-home/fondo_home.jpg');
+    background-size: cover;
+    background-position: center;
 
+    background-repeat: no-repeat;
 
 }
 
@@ -128,17 +132,19 @@ body {
     margin-top: 0vh;
 }
 
-.container2 {
+.container4 {
     margin-top: 0vh;
 }
 
 .container2 img {
     width: 25vw;
-
+    border-radius: 10%;
 }
 
 .container3 img {
     width: 25vw;
+    border-radius: 10%;
+
 }
 
 

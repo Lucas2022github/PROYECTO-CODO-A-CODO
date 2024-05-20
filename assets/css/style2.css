@@ -2,6 +2,12 @@
 
 .profesionales {
     height: 100vh;
+    width: 100vw;
+    background-color: var(--second-color);
+}
+
+.profesionalesbox {
+    height: 100vh;
     width: 70vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,7 +16,10 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 15vh;
+
+
 }
+
 
 
 .profesional1 img {
@@ -18,8 +27,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; */
-    width: 11rem;
-    height: 13rem;
+
 
 }
 
@@ -30,13 +38,15 @@
 
 .profesionales div img {
     width: 13vw;
-    height: 32vh;
+    /* height: 32vh; */
+    border-radius: 50%;
 }
 
 .profesionales div p {
     text-align: center;
     background-color: var(--third-color);
     margin: 0;
+    border-radius: 20px;
 }
 
 
