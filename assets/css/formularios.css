@@ -1,29 +1,44 @@
 /*  CONTACTO-------------------------------------- */
 
+.contacto-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--second-color);
+}
+
 .contacto {
     height: 100vh;
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    padding-top: 15vh;
 
 }
 
 .contacto-1 {
-    margin-top: 20vh;
+    /* padding-top: 15vh; */
 }
 
 .contacto-2 {
-    margin-top: 20vh;
     margin-left: 10vw;
 }
 
 .contaco-descripcion {
     display: flex;
-    height: 50vh;
+    height: 60vh;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 14vh;
+}
 
+.contacto-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bi {
+    color: var(--third-color);
 }
 
 
