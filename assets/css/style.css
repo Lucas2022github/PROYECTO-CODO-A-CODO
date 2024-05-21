@@ -13,6 +13,7 @@ html {
     --second-color: rgba(88, 225, 213, 1);
     --third-color: rgba(0, 141, 218, 1);
     --fourth-color: rgba(88, 224, 167, 1);
+    --sixth-color: rgba(172, 226, 225, 1);
     --bg-alpha-color: rgba(245, 245, 245, 0.75);
 }
 
@@ -39,17 +40,22 @@ body {
 .nav ul {
     display: flex;
     list-style-type: none;
-    padding-top: 1.5rem;
+    padding-top: 4vh;
 
 }
 
 .nav ul li a {
     text-decoration: none;
-    padding: 1.5rem;
+    padding: 2vw;
+}
+
+.nav ul li {
+
+    padding-top: 0.9vh;
 }
 
 .button-menu {
-    margin-right: 1.5rem;
+    margin-right: 2vw;
 
 }
 
@@ -73,7 +79,7 @@ body {
 
 .home-section {
     height: 100vh;
-    background-image: url('/assets/img/img-home/fondo_home.jpg');
+    background-image: url('/assets/img/img-home/fondo_home.png');
     background-size: cover;
     background-position: center;
 

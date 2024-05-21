@@ -50,7 +50,7 @@
         margin-right: auto;
         display: flex;
         flex-direction: column;
-
+        padding-top: 3vh;
     }
 
     .contenedor-map iframe {
@@ -58,12 +58,20 @@
         height: 300px;
     }
 
+    .contaco-descripcion {
+        display: flex;
+        height: 50vh;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 5vh;
+    }
+
     .contacto-1 {
-        margin-top: 5vh;
+        margin-top: 3vh;
     }
 
     .contacto-2 {
-        margin-top: 3vh;
+        margin-top: 0vh;
         margin-left: 0vw;
     }
 }
@@ -88,11 +96,16 @@
 }
 
 .contact-form {
-    --form-ok-color: #4caf50;
-    --form-error-color: #f44336;
+    --form-ok-color: rgba(88, 224, 167, 1);
+    --form-error-color: rgba(0, 141, 218, 1);
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
+
+.contact-form input,
+textarea {
+    background-color: var(--sixth-color);
 }
 
 .contact-form>* {
@@ -104,10 +117,9 @@
     margin-bottom: 1rem; */
     display: block;
     width: 100%;
-
-
     display: flex;
     justify-content: center;
+    border-radius: 20px;
 }
 
 .completar {
@@ -237,14 +249,14 @@
 
 
 .footer {
-    background-color: white;
+    background-color: var(--second-color);
     height: 40vh;
 
 }
 
 .contenedor-footer {
     text-align: center;
-    background-color: white;
+    background-color: var(--second-color);
 
 }
 
@@ -264,7 +276,7 @@
 }
 
 .redes i:hover {
-    color: var(--third-color);
+    color: var(--first-color);
 }
 
 
@@ -277,7 +289,7 @@
 
 @media (max-width: 576px) {
     .footer {
-        background-color: white;
+        background-color: var(--second-color);
         height: 20vh;
 
 
