@@ -15,11 +15,21 @@ html {
     --fourth-color: rgba(88, 224, 167, 1);
     --sixth-color: rgba(172, 226, 225, 1);
     --bg-alpha-color: rgba(245, 245, 245, 0.75);
+
 }
 
 body {
     /* font-family; */
     background-color: var(--first-color);
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
 
 
@@ -56,11 +66,14 @@ body {
 
 .button-menu {
     margin-right: 2vw;
-
+    border-radius: 20px;
+    border-color: var(--third-color);
+    border-style: solid;
 }
 
 .button-menu a {
     text-decoration: none;
+
 }
 
 .home a img {
@@ -103,6 +116,24 @@ body {
 
 .container-home p {
     text-align: center;
+}
+
+.container-home h1 {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.container-home div {
+    display: flex;
+    gap: 1vw;
+}
+
+.h1 {
+    color: var(--fourth-color);
+    color: green;
+}
+
+.h11 {
+    color: var(--third-color);
 }
 
 @media (max-width: 576px) {
