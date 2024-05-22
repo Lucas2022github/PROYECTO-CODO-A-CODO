@@ -18,18 +18,18 @@
     padding-top: 15vh;
 }
 
-.profesionales div {
+.profesionalesbox div {
     width: 13vw;
     height: 10vh;
 }
 
-.profesionales div img {
+.profesionalesbox div img {
     width: 13vw;
     /* height: 32vh; */
     border-radius: 50%;
 }
 
-.profesionales div p {
+.profesionalesbox div p {
     text-align: center;
     background-color: var(--third-color);
     margin: 0;
