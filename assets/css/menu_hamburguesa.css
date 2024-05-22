@@ -66,8 +66,32 @@ button.panel-btn {
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     button.panel-btn {
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-hambur {
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding-top: 3%;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu-hambur {
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding-top: 30%;
     }
 }

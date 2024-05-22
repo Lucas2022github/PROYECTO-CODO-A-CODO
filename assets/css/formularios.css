@@ -2,7 +2,7 @@
 
 .contacto-container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: var(--second-color);
 }
 
@@ -41,6 +41,19 @@
     color: var(--third-color);
 }
 
+@media (max-width: 768px) {
+    .contenedor-map iframe {
+        width: 300px;
+        height: 300px;
+    }
+
+    .contacto-1 {
+        padding-top: 14vh;
+    }
+
+}
+
+
 
 @media (max-width: 576px) {
     .contacto {
@@ -50,7 +63,7 @@
         margin-right: auto;
         display: flex;
         flex-direction: column;
-        padding-top: 3vh;
+        padding-top: 0vh;
     }
 
     .contenedor-map iframe {
@@ -63,11 +76,12 @@
         height: 50vh;
         flex-direction: column;
         justify-content: space-between;
-        padding-top: 5vh;
+        padding-top: 2vh;
     }
 
     .contacto-1 {
-        margin-top: 3vh;
+        margin-top: 0vh;
+        padding-top: 15%;
     }
 
     .contacto-2 {
@@ -75,6 +89,8 @@
         margin-left: 0vw;
     }
 }
+
+
 
 
 
@@ -208,7 +224,7 @@ textarea {
 @media (max-width: 576px) {
 
     .consulta {
-        height: 100vh;
+        height: 90vh;
         width: 90vw;
         margin-left: auto;
         margin-right: auto;
@@ -221,6 +237,15 @@ textarea {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        ;
+    }
+
+    .contact-form input {
+        margin-bottom: 10%
+    }
+
+    .contact-form textarea {
+        margin-bottom: 10%
     }
 }
 
@@ -231,12 +256,57 @@ textarea {
 /* TURNOS---------------------------- */
 
 .turnos {
-    height: 100vh;
+    background-color: rgba(58, 225, 213, .3);
+    border-radius: 30px;
+    /* height: 100vh;
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20vh;
+    padding-top: 20vh; */
+    height: auto;
+    width: auto;
+    margin: 10vh 10vw;
+    padding: 10vh 10vw;
+
 }
+
+fieldset {
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    gap: 20px;
+}
+
+
+legend {
+    color: #008DDA;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.form-control {
+    background-color: rgba(229, 250, 240, 1);
+
+
+}
+
+.input-turnos {
+    width: 100%;
+}
+
+.input-fecha {
+    width: 15vw;
+}
+
+.btn-primary {
+    background-color: #008DDA;
+    padding: 8px 50px;
+    border-radius: 30px;
+    margin: 0% auto;
+}
+
 
 
 

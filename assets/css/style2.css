@@ -2,7 +2,7 @@
 
 .profesionales {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: var(--second-color);
 }
 
@@ -36,12 +36,43 @@
     border-radius: 20px;
 }
 
+@media (max-width: 768px) {
+    .profesionales {
+        height: 140vh;
+        width: 100%;
+        background-color: var(--second-color);
+    }
 
+    .profesionalesbox {
+        height: 100vh;
+        width: 70vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 3% 3%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        padding-top: 10vh;
+    }
+
+    .profesionalesbox div {
+        width: 30vw;
+        height: 40vh;
+
+    }
+
+    .profesionalesbox div img {
+        width: 30vw;
+
+    }
+}
 
 @media (max-width: 576px) {
     .profesionales {
         height: 250vh;
-        width: 100vw;
+        width: 100%;
         background-color: var(--second-color);
     }
 
@@ -78,6 +109,8 @@
         padding-top: 1vh;
     }
 }
+
+
 
 
 /* 
@@ -125,15 +158,35 @@ TESTIMONIO--------------------------------------------- */
     background-color: white;
 }
 
+.carousel-inner img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+
+        height: 50vh;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+
+    .carousel-inner img {
+        height: 50%;
+    }
+}
+
+
 @media (max-width: 576px) {
-    .testimonio {
+    /* .testimonio {
         padding-top: 10vh;
     }
 
     .carousel {
 
         height: 100vh;
-        width: 100vw;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         background-color: white;
@@ -158,9 +211,39 @@ TESTIMONIO--------------------------------------------- */
         display: none;
     }
 
+    .carousel-inner img {
+        width: 110%;
+    } */
+
+    .carousel {
+        display: none;
+    }
+
+    .testimonio2 {
+        display: flex;
+        flex-direction: column;
+        height: 160%;
+
+    }
+
+    .testimonio {
+        height: 120vh;
+    }
+
+    .testimonio2 h3 {
+        text-align: center;
+
+    }
 
 }
 
+
+@media (min-width: 576px) {
+    .testimonio2 {
+        display: none;
+    }
+
+}
 
 /* @media (min-width: 576px) {
     .invisibl {

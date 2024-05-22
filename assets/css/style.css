@@ -81,7 +81,7 @@ button {
     margin-left: 1.5rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .header {
         display: none;
     }
@@ -135,6 +135,18 @@ button {
 .h11 {
     color: var(--third-color);
 }
+
+
+@media (max-width: 768px) {
+    .container-home {
+        padding-top: 7vh;
+    }
+
+    .img-logo {
+        width: 55%;
+    }
+}
+
 
 @media (max-width: 576px) {
     .img-logo {
