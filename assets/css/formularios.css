@@ -326,8 +326,7 @@ legend {
 
 .contenedor-footer {
     text-align: center;
-    background-color: var(--second-color);
-
+    /* background-color: var(--second-color); */
 }
 
 .nav-footer {
@@ -359,8 +358,9 @@ legend {
 
 @media (max-width: 576px) {
     .footer {
-        background-color: var(--second-color);
+        background-color: transparent;
         height: 20vh;
+
 
 
     }
@@ -375,7 +375,7 @@ legend {
     }
 
     .contenedor-footer {
-
-        padding-bottom: 15vh;
+        background-color: var(--second-color);
+        padding-bottom: 10vh;
     }
 }

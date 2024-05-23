@@ -10,7 +10,7 @@ html {
 
 :root {
     --first-color: rgba(255, 255, 255, 1);
-    --second-color: rgba(88, 225, 213, 1);
+    --second-color: rgba(58, 225, 213, .3);
     --third-color: rgba(0, 141, 218, 1);
     --fourth-color: rgba(88, 224, 167, 1);
     --sixth-color: rgba(172, 226, 225, 1);
@@ -30,6 +30,11 @@ p {
 button {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+}
+
+li {
+    font-family: "Roboto Condensed", sans-serif;
+    color: var(--third-color);
 }
 
 
@@ -69,11 +74,12 @@ button {
     border-radius: 20px;
     border-color: var(--third-color);
     border-style: solid;
+    background-color: var(--primary-color);
+    color: var(--third-color);
 }
 
-.button-menu a {
-    text-decoration: none;
-
+.nav ul :nth-child(6) {
+    padding-top: 0.3%;
 }
 
 .home a img {
@@ -92,7 +98,7 @@ button {
 
 .home-section {
     height: 100vh;
-    background-image: url('/assets/img/img-home/fondo_home.png');
+    background-image: url('../img/img-home/fondo_home.png');
     background-size: cover;
     background-position: center;
 
@@ -118,9 +124,7 @@ button {
     text-align: center;
 }
 
-.container-home h1 {
-    font-family: "Fjalla One", sans-serif;
-}
+
 
 .container-home div {
     display: flex;
@@ -128,12 +132,15 @@ button {
 }
 
 .h1 {
-    color: var(--fourth-color);
     color: green;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 2rem;
 }
 
 .h11 {
     color: var(--third-color);
+    font-family: "Fjalla One", sans-serif;
+    font-size: 2rem;
 }
 
 
