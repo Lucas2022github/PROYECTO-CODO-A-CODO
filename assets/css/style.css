@@ -44,6 +44,25 @@ li {
 
 /* MENU-------------------------------------------------- */
 
+@keyframes imglog {
+    from {
+        opacity: 0%;
+        width: 5%;
+    }
+
+    to {
+
+        opacity: 100%;
+        width: 35%;
+    }
+}
+
+.img-logo {
+    animation: imglog 4s;
+
+
+}
+
 .header {
     background-color: white;
     display: flex;
@@ -196,23 +215,6 @@ li {
 }
 
 
-/* @keyframes imglog {
-    from {
-        opacity: 0%;
-        width: 5%;
-    }
-
-    to {
-
-        opacity: 100%;
-        width: 35%;
-    }
-}
-
-.img-logo {
-    animation: imglog 4s;
-
-} */
 
 
 
