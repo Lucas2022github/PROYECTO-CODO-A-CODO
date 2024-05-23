@@ -151,8 +151,9 @@
 
 
         <section class="testimonio" id="testimonio">
-            <h3 class="none">TESTIMONIOS</h3>
-            <P class="none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, molestiae quo. Minus
+            <h3 class="none " id="titulo-testimonio">TESTIMONIOS</h3>
+            <P class="none " id="parrafo-testimonio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+                molestiae quo. Minus
                 accusantium totam
                 quae temporibus consequatur nisi minima cum libero illo. Culpa beatae quisquam repellat aliquid sunt,
                 obcaecati perspiciatis.</P>
@@ -289,14 +290,42 @@
 
                             </div>
                             <div class="input-turnos">
-                                <label class="form-label" for="edad">Celula</label>
-                                <input type="text" id="edad" name="edad" placeholder="Ingresa tu edad">
+                                <label class="form-label" for="edad">Edad</label>
+                                <input class="form-control" type="number" id="edad" name="edad"
+                                    placeholder="Ingresa tu edad">
 
                             </div>
                             <div class="input-turnos">
                                 <label class="form-label" for="correo">Correo: </label>
                                 <input class="form-control" type="email" id="correo" name="correo"
                                     placeholder="Ingrese su correo" required>
+                            </div>
+                            <div class="input-turnos">
+                                <label class="form-label" for="edad">Obra social:</label>
+                                <select name="coberturaTurno" class="form-control">
+                                    <option value="OS1">OS1</option>
+                                    <option value="OS2">OS2</option>
+                                    <option value="OS3">OS3</option>
+                                    <option value="OS4">OS4</option>
+                                    <option value="OS5">OS5</option>
+                                    <option value="Otra">Otra</option>
+                                </select>
+                            </div>
+                            <div class="input-turnos">
+
+                                <div class="formGenero">
+                                    <label class="form-label" for="edad">Genero:</label>
+
+                                    <div>
+                                        <label class="form-label" for="edad">&emsp;Masculino &nbsp;</label>
+                                        <input class="inputGenero" type="radio" name="generoTurno" value="1">
+                                    </div>
+                                    <div>
+                                        <label class="form-label" for="edad">&emsp;Femenino &nbsp; </label>
+                                        <input class="inputGenero" type="radio" name="generoTurno" value="2">
+                                    </div>
+
+                                </div>
                             </div>
                             <div class="input-fecha">
                                 <label for="fecha">Fecha: </label>

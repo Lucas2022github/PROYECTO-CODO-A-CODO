@@ -6,16 +6,21 @@
     background-color: var(--second-color);
 }
 
+.profesionales h2 {
+    text-align: center;
+    padding-top: 7%;
+}
+
 .profesionalesbox {
-    height: 100vh;
+    height: 80vh;
     width: 70vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 4vh 16vw;
+    gap: 0vh 16vw;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15vh;
+    padding-top: 0vh;
 }
 
 .profesionalesbox div {
@@ -38,18 +43,18 @@
 
 @media (max-width: 768px) {
     .profesionales {
-        height: 140vh;
+        height: 170vh;
         width: 100%;
         background-color: var(--second-color);
     }
 
     .profesionalesbox {
-        height: 100vh;
+        height: 140vh;
         width: 70vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 3% 3%;
+        gap: 5% 18%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 0vh;
@@ -78,7 +83,7 @@
 
     .profesionalesbox {
         height: 100vh;
-        width: 70vw;
+        width: 60vw;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -91,14 +96,15 @@
     }
 
     .profesionalesbox div {
-        width: 70vw;
+        width: 60vw;
         height: 40vh;
 
     }
 
     .profesionalesbox div img {
-        width: 70vw;
-
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .profesionalesbox div p {
@@ -107,6 +113,7 @@
         margin: 0;
         height: 5vh;
         padding-top: 1vh;
+        width: 60vw;
     }
 }
 
@@ -175,6 +182,29 @@ TESTIMONIO--------------------------------------------- */
     .carousel-inner img {
         height: 50%;
     }
+
+    .testimonio h3 {
+        display: block;
+        text-align: center;
+    }
+
+    .testimonio p {
+        display: block;
+        text-align: center;
+        /* padding-bottom: 5%; */
+        padding: 0% 5% 0 5%;
+    }
+
+    .testimonio {
+
+        background-color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 5%;
+    }
+
 }
 
 
@@ -233,6 +263,11 @@ TESTIMONIO--------------------------------------------- */
     .testimonio2 h3 {
         text-align: center;
 
+    }
+
+    #titulo-testimonio,
+    #parrafo-testimonio {
+        display: none;
     }
 
 }

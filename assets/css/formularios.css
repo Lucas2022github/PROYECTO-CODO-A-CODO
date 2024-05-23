@@ -6,6 +6,10 @@
     background-color: var(--second-color);
 }
 
+.contacto-container h2 {
+    text-align: center;
+}
+
 .contacto {
     height: 100vh;
     width: 70vw;
@@ -22,6 +26,7 @@
 
 .contacto-2 {
     margin-left: 10vw;
+    font-size: 1.2rem;
 }
 
 .contaco-descripcion {
@@ -101,7 +106,7 @@
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .text-consulta {
@@ -258,11 +263,6 @@ textarea {
 .turnos {
     background-color: rgba(58, 225, 213, .3);
     border-radius: 30px;
-    /* height: 100vh;
-    width: 70vw;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20vh; */
     height: auto;
     width: auto;
     margin: 10vh 10vw;
