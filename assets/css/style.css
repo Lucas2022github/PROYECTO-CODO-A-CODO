@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -81,6 +82,11 @@ li {
     color: var(--third-color);
 }
 
+.button-menu:hover {
+    border-color: green;
+    color: green;
+}
+
 .nav ul :nth-child(6) {
     padding-top: 0.3%;
 }
@@ -121,7 +127,14 @@ li {
 
 .img-logo {
     width: 35%;
+    opacity: 100%;
+
 }
+
+/* .img-logo:hover {
+    width: 5%;
+    opacity: 5%;
+} */
 
 .container-home p {
     text-align: center;
@@ -179,6 +192,25 @@ li {
         text-align: center;
         margin-top: 0vh;
     }
+
+}
+
+
+@keyframes imglog {
+    from {
+        opacity: 0%;
+        width: 5%;
+    }
+
+    to {
+
+        opacity: 100%;
+        width: 35%;
+    }
+}
+
+.img-logo {
+    animation: imglog 4s;
 
 }
 

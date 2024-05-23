@@ -96,3 +96,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     hamburguerMenu(".panel-btn", ".panel", ".menu-hambur a");
     contactFormValidations();
 });
+
+
+
+
