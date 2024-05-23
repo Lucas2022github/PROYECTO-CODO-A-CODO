@@ -7,6 +7,10 @@
 }
 
 .profesionales h2 {
+    color: green;
+}
+
+.profesionales h2 {
     text-align: center;
     padding-top: 7%;
 }
@@ -133,6 +137,9 @@ TESTIMONIO--------------------------------------------- */
     padding-top: 10vh;
 }
 
+.testimonio h3 {
+    color: green;
+}
 
 .carousel-control-next-icon {
     width: 4rem;

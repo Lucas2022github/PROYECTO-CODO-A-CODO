@@ -6,6 +6,11 @@
     background-color: var(--second-color);
 }
 
+.contacto-container h2,
+h3 {
+    color: green;
+}
+
 .contacto-container h2 {
     text-align: center;
 }
@@ -118,10 +123,12 @@
 }
 
 .text-consulta {
-    /* margin-top: 20vh; */
-    /* padding-bottom: 20vh; */
     text-align: center;
     margin-bottom: 3vh;
+}
+
+.text-consulta h2 {
+    color: green;
 }
 
 .contact-form {
