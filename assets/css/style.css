@@ -196,7 +196,7 @@ li {
 }
 
 
-@keyframes imglog {
+/* @keyframes imglog {
     from {
         opacity: 0%;
         width: 5%;
@@ -212,7 +212,7 @@ li {
 .img-logo {
     animation: imglog 4s;
 
-}
+} */
 
 
 
