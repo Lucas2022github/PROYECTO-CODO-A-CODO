@@ -170,6 +170,18 @@ li {
 
 }
 
+@media (max-width: 410px) {
+    .img-logo {
+        width: 90%;
+    }
+
+    .container-home p {
+        text-align: center;
+        margin-top: 0vh;
+    }
+
+}
+
 
 
 /* NOSOTROS--------------------------------------------- */

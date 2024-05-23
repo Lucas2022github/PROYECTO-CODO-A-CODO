@@ -96,7 +96,15 @@
 }
 
 
-
+@media (max-width: 576px) {
+    .contaco-descripcion {
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 2vh;
+    }
+}
 
 
 /* CONSULTAS------------------------------------------------------- */
