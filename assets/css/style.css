@@ -44,24 +44,7 @@ li {
 
 /* MENU-------------------------------------------------- */
 
-@keyframes imglog {
-    from {
-        opacity: 0%;
-        width: 5%;
-    }
 
-    to {
-
-        opacity: 100%;
-        width: 35%;
-    }
-}
-
-.img-logo {
-    animation: imglog 4s;
-
-
-}
 
 .header {
     background-color: white;
@@ -123,6 +106,24 @@ li {
 
 
 /* HOME-------------------------------------- */
+@keyframes imglog {
+    from {
+        opacity: 0%;
+        width: 5%;
+    }
+
+    to {
+
+        opacity: 100%;
+        width: 35%;
+    }
+}
+
+.img-logo {
+    animation: imglog 4s;
+    width: 35%;
+    opacity: 100%;
+}
 
 .home-section {
     height: 100vh;
@@ -143,17 +144,6 @@ li {
     margin-right: auto;
     /* align-content: center; */
 }
-
-.img-logo {
-    width: 35%;
-    opacity: 100%;
-
-}
-
-/* .img-logo:hover {
-    width: 5%;
-    opacity: 5%;
-} */
 
 .container-home p {
     text-align: center;
@@ -187,6 +177,25 @@ li {
     .img-logo {
         width: 55%;
     }
+
+    @keyframes imglog {
+        from {
+            opacity: 0%;
+            width: 5%;
+        }
+
+
+        to {
+
+            opacity: 100%;
+            width: 55%;
+        }
+    }
+
+    .img-logo {
+        width: 55%;
+        animation: imglog 3s;
+    }
 }
 
 
@@ -200,16 +209,53 @@ li {
         margin-top: 10vh;
     }
 
+    @keyframes imglog {
+        from {
+            opacity: 0%;
+            width: 5%;
+        }
+
+
+        to {
+
+            opacity: 100%;
+            width: 90%;
+        }
+    }
+
+    .img-logo {
+        width: 90%;
+        animation: imglog 3s;
+    }
+
 }
 
 @media (max-width: 410px) {
-    .img-logo {
-        width: 90%;
-    }
+
 
     .container-home p {
         text-align: center;
         margin-top: 0vh;
+    }
+
+
+    @keyframes imglog {
+        from {
+            opacity: 0%;
+            width: 5%;
+        }
+
+
+        to {
+
+            opacity: 100%;
+            width: 90%;
+        }
+    }
+
+    .img-logo {
+        width: 90%;
+        animation: imglog 3s;
     }
 
 }
