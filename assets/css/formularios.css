@@ -376,3 +376,24 @@ legend {
         padding-bottom: 10vh;
     }
 }
+
+
+
+@keyframes imglog {
+    from {
+        opacity: 0%;
+        width: 5%;
+    }
+
+    to {
+
+        opacity: 100%;
+        width: 35%;
+    }
+}
+
+.img-logo {
+    animation: imglog 4s;
+    width: 35%;
+    opacity: 100%;
+}
