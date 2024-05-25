@@ -118,6 +118,7 @@ button.panel-btn {
     animation: imglog 4s;
     width: 35%;
     opacity: 100%;
+    display: block;
 }
 
 
@@ -128,6 +129,7 @@ button.panel-btn {
 
     .img-logo {
         width: 55%;
+        display: block;
     }
 
     @keyframes imglog {
@@ -144,16 +146,17 @@ button.panel-btn {
         }
     }
 
-    .img-logo {
+    /* .img-logo {
         width: 55%;
-        /* animation: imglog 3s; */
-    }
+
+    }  */
 }
 
 
 @media (max-width: 576px) {
     .img-logo {
         width: 80%;
+        display: block;
     }
 
     .container-home {
@@ -179,10 +182,10 @@ button.panel-btn {
         }
     }
 
-    .img-logo {
+    /* .img-logo {
         width: 80%;
-        /* animation: imglog 3s; */
-    }
+        
+    } */
 
 }
 
@@ -211,7 +214,7 @@ button.panel-btn {
 
     .img-logo {
         width: 80%;
-        /* animation: imglog 3s; */
+        display: block;
     }
 
 }

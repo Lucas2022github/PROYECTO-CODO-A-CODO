@@ -3,6 +3,13 @@ html {
     scroll-behavior: smooth;
 }
 
+body,
+html {
+    overflow-x: hidden;
+    /* Previene el desplazamiento horizontal */
+}
+
+
 *,
 *:before,
 *:after {
@@ -149,121 +156,6 @@ li {
     color: var(--third-color);
     font-family: "Fjalla One", sans-serif;
     font-size: 2rem;
-}
-
-@keyframes imglog {
-    from {
-        opacity: 0%;
-        width: 5%;
-    }
-
-    to {
-
-        opacity: 100%;
-        width: 35%;
-    }
-}
-
-.img-logo {
-    animation: imglog 4s;
-    width: 35%;
-    opacity: 100%;
-}
-
-
-@media (max-width: 768px) {
-    .container-home {
-        padding-top: 7vh;
-    }
-
-    .img-logo {
-        width: 55%;
-    }
-
-    @keyframes imglog {
-        from {
-            opacity: 0%;
-            width: 5%;
-        }
-
-
-        to {
-
-            opacity: 100%;
-            width: 55%;
-        }
-    }
-
-    .img-logo {
-        width: 55%;
-        animation: imglog 3s;
-    }
-}
-
-
-@media (max-width: 576px) {
-    .img-logo {
-        width: 80%;
-    }
-
-    .container-home {
-        padding-top: 0vh;
-    }
-
-    .container-home p {
-        text-align: center;
-        margin-top: 3vh;
-    }
-
-    @keyframes imglog {
-        from {
-            opacity: 0%;
-            width: 5%;
-        }
-
-
-        to {
-
-            opacity: 100%;
-            width: 80%;
-        }
-    }
-
-    .img-logo {
-        width: 80%;
-        animation: imglog 3s;
-    }
-
-}
-
-@media (max-width: 410px) {
-
-
-    .container-home p {
-        text-align: center;
-        margin-top: 0vh;
-    }
-
-
-    @keyframes imglog {
-        from {
-            opacity: 0%;
-            width: 5%;
-        }
-
-
-        to {
-
-            opacity: 100%;
-            width: 80%;
-        }
-    }
-
-    .img-logo {
-        width: 80%;
-        animation: imglog 3s;
-    }
-
 }
 
 
