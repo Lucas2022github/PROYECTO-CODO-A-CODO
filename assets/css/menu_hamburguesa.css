@@ -146,7 +146,7 @@ button.panel-btn {
 
     .img-logo {
         width: 55%;
-        animation: imglog 3s;
+        /* animation: imglog 3s; */
     }
 }
 
@@ -181,7 +181,7 @@ button.panel-btn {
 
     .img-logo {
         width: 80%;
-        animation: imglog 3s;
+        /* animation: imglog 3s; */
     }
 
 }
@@ -211,7 +211,7 @@ button.panel-btn {
 
     .img-logo {
         width: 80%;
-        animation: imglog 3s;
+        /* animation: imglog 3s; */
     }
 
 }
