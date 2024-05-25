@@ -106,24 +106,7 @@ li {
 
 
 /* HOME-------------------------------------- */
-@keyframes imglog {
-    from {
-        opacity: 0%;
-        width: 5%;
-    }
 
-    to {
-
-        opacity: 100%;
-        width: 35%;
-    }
-}
-
-.img-logo {
-    animation: imglog 4s;
-    width: 35%;
-    opacity: 100%;
-}
 
 .home-section {
     height: 100vh;
@@ -166,6 +149,25 @@ li {
     color: var(--third-color);
     font-family: "Fjalla One", sans-serif;
     font-size: 2rem;
+}
+
+@keyframes imglog {
+    from {
+        opacity: 0%;
+        width: 5%;
+    }
+
+    to {
+
+        opacity: 100%;
+        width: 35%;
+    }
+}
+
+.img-logo {
+    animation: imglog 4s;
+    width: 35%;
+    opacity: 100%;
 }
 
 
