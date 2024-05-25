@@ -97,11 +97,16 @@ button.panel-btn {
 }
 
 
+/* ANIMACION----------------------- */
 
 
 
 
-@keyframes imglog {
+
+
+
+
+/* @keyframes imglog {
     from {
         opacity: 0%;
         width: 5%;
@@ -147,10 +152,6 @@ button.panel-btn {
         }
     }
 
-    /* .img-logo {
-        width: 55%;
-
-    }  */
 }
 
 
@@ -184,10 +185,6 @@ button.panel-btn {
         }
     }
 
-    /* .img-logo {
-        width: 80%;
-        
-    } */
 
 }
 
@@ -221,4 +218,4 @@ button.panel-btn {
         animation: imglog 4s;
     }
 
-}
+} */

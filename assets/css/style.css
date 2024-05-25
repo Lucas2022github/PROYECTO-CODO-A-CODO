@@ -158,6 +158,57 @@ li {
     font-size: 2rem;
 }
 
+.img-logo {
+    animation: imglog 4s;
+    width: 35%;
+    opacity: 100%;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .container-home {
+        padding-top: 7vh;
+    }
+
+    .img-logo {
+        width: 55%;
+        display: block;
+        animation: imglog 4s;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-logo {
+        width: 80%;
+        display: block;
+    }
+
+    .container-home {
+        padding-top: 0vh;
+    }
+
+    .container-home p {
+        text-align: center;
+        margin-top: 3vh;
+    }
+}
+
+@media (max-width: 410px) {
+
+
+    .container-home p {
+        text-align: center;
+        margin-top: 0vh;
+    }
+
+
+
+    .img-logo {
+        width: 80%;
+        display: block;
+    }
+
+}
 
 
 
