@@ -130,6 +130,7 @@ button.panel-btn {
     .img-logo {
         width: 55%;
         display: block;
+        animation: imglog 4s;
     }
 
     @keyframes imglog {
@@ -157,6 +158,7 @@ button.panel-btn {
     .img-logo {
         width: 80%;
         display: block;
+        animation: imglog 4s;
     }
 
     .container-home {
@@ -195,6 +197,7 @@ button.panel-btn {
     .container-home p {
         text-align: center;
         margin-top: 0vh;
+        animation: imglog 4s;
     }
 
 
@@ -215,6 +218,7 @@ button.panel-btn {
     .img-logo {
         width: 80%;
         display: block;
+        animation: imglog 4s;
     }
 
 }
